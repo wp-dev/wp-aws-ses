@@ -1,17 +1,10 @@
 {
-    "name": "creativecity/wp-aws-ses",
-    "description": "Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail)",
-    "version": "1.7.3",
-    "type": "wordpress-plugin",
-    "minimum-stability": "dev",
-	"prefer-stable": true,
-    "license": "MIT",
-    "support": {
+	"name": "creativecity/wp-aws-ses",
+	"description": "AWS SES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as Gmail)",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"support": {
 		"issues": "https://github.com/creativecity/wp-aws-ses/issues",
 		"source": "https://github.com/creativecity/wp-aws-ses/"
-	},
-    "source": {
-        "url": "https://github.com/creativecity/wp-aws-ses.git",
-        "type": "git"
-    }
+	}
 }
