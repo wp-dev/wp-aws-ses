@@ -1,10 +1,17 @@
 {
-    "name": "creativecity/wordpress-amazon-ses-dkim-mailer",
+    "name": "creativecity/aws-ses",
     "description": "Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail)",
     "version": "v1.7.1",
+    "type": "wordpress-plugin",
+    "minimum-stability": "dev",
+	"prefer-stable": true,
     "license": "MIT",
+    "support": {
+		"issues": "https://github.com/creativecity/aws-ses/issues",
+		"source": "https://github.com/creativecity/aws-ses/"
+	},
     "dist": {
-        "url": "https://github.com/creativecity/wordpress-amazon-ses-dkim-mailer.git",
+        "url": "https://github.com/creativecity/aws-ses.git",
         "type": "git"
     }
 }

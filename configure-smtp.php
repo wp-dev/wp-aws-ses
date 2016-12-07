@@ -8,38 +8,16 @@ Author URI: http://rogermacrae.com
 Description: Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as Gmail).
 License: MIT
 
-Original author of this plugin is Anatta (Nick Murray)
-
-=>> Read the accompanying readme.txt file for instructions and documentation.
-=>> Also, visit the plugin's homepage for additional information and updates.
-=>> Or visit: http://wordpress.org/extend/plugins/amazon-ses-and-dkim-mailer/
-
 TODO:
 	* Incorporate Amazon SES stats checking
 	* Implement failover to SMTP once SES quota is reached, or SES error code received
 	* Add simple DKIM key and DNS record generator to plugin homepage
 */
 
-
-/*
-The bulk of this plugin is based on the configure-smtp plugin (http://wordpress.org/extend/plugins/configure-smtp/)
-
-Please therefore respect the copyright notice below
- 
-Copyright (c) 2004-2011 by Scott Reilly (aka coffee2code)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,
-modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
+/** If this file is called directly, abort. */
+if ( ! defined( 'ABSPATH' ) ) {
+	die;
+}
 
 if ( ! class_exists( 'c2c_ConfigureAES_DKIM_SMTP' ) ) :
 
