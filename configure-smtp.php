@@ -5,7 +5,7 @@ Version: 1.7.1
 Plugin URI: http://rogermacrae.com
 Author: Roger MacRae
 Author URI: http://rogermacrae.com
-Description: Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail).
+Description: Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as Gmail).
 
 Original author of this plugin is Anatta (Nick Murray)
 
