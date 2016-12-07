@@ -1,5 +1,5 @@
 {
-    "name": "creativecity/wordpress-amazon-dkim-mailer",
+    "name": "creativecity/wordpress-amazon-ses-dkim-mailer",
     "description": "Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail)",
     "version": "1.7.1",
     "dist": {
