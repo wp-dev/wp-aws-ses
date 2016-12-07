@@ -6,6 +6,7 @@ Plugin URI: http://rogermacrae.com
 Author: Roger MacRae
 Author URI: http://rogermacrae.com
 Description: Configure Amazon AES mailing in WordPress, including support for sending e-mail via SSL/TLS (such as Gmail).
+License: MIT
 
 Original author of this plugin is Anatta (Nick Murray)
 
