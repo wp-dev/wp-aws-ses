@@ -1,0 +1,8 @@
+{
+    "name": "creativecity/wordpress-amazon-dkim-mailer",
+    "version": "1.7.1",
+    "dist": {
+        "url": "https://github.com/creativecity/wordpress-amazon-ses-dkim-mailer.git",
+        "type": "git"
+    }
+}
