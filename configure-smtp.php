@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Amazon SES DKIM Mailer
-Version: 1.7.1
+Version: 1.7.3
 Plugin URI: http://rogermacrae.com
 Author: Roger MacRae
 Author URI: http://rogermacrae.com
