@@ -30,7 +30,7 @@ abstract class C2C_Plugin_023 {
 	 * @param array $plugin_options (optional) Array specifying further customization of plugin configuration.
 	 * @return void
 	 */
-	public function C2C_Plugin_023( $version, $id_base, $author_prefix, $file, $plugin_options = array() ) {
+	public function __construct( $version, $id_base, $author_prefix, $file, $plugin_options = array() ) {
 		global $pagenow;
 		$id_base = sanitize_title( $id_base );
 		if ( !file_exists( $file ) )
@@ -77,6 +77,13 @@ abstract class C2C_Plugin_023 {
 		if ( basename( $pagenow, '.php' ) == $this->settings_page )
 			add_action( 'admin_head', 				array( &$this, 'add_c2c_admin_css' ) );
 	}
+
+	// Keep the old PHP 4 constructor
+	public function C2C_Plugin_023( $version, $id_base, $author_prefix, $file, $plugin_options = array() ){
+		self::__construct( $version, $id_base, $author_prefix, $file, $plugin_options = array() );
+	}
+	        
+
 
 	/**
 	 * Handles installation tasks, such as ensuring plugin options are instantiated and saved to options table.
